@@ -1,0 +1,29 @@
+.home {
+  margin: 0 auto;
+  width: 97%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.home h1 {
+  text-align: center;
+}
+.home select {
+  font-family: "Comme", sans-serif;
+  padding: 10px;
+  font-size: 14px;
+  border: solid 2px black;
+  margin: 0 5px 10px 5px;
+}
+.home select:focus {
+  /* outline: greenyellow; */
+  border-color: #8be74a;
+}
+.home select:focus-visible,
+.home select:visited {
+  outline: #8be74a;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

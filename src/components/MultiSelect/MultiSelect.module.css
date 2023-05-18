@@ -1,0 +1,60 @@
+.multiContainer {
+  position: relative;
+  width: 400px;
+  max-width: 100%;
+}
+.multiSelect {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.selectedOptions {
+  display: flex;
+  flex-wrap: wrap;
+}
+.selectedOption {
+  margin-right: 8px;
+  margin-bottom: 5px;
+  padding: 4px 8px;
+  background-color: #eee;
+  font-size: 14px;
+}
+.arrow {
+  font-size: 14px;
+  position: absolute;
+  right: 10px;
+}
+.optionsList {
+  position: absolute;
+  top: 100%;
+  left: -1px;
+  width: 100%;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 2px solid black;
+  border-top: none;
+}
+.optionsList label {
+  display: block;
+  padding: 8px;
+  cursor: pointer;
+}
+.optionsList label:hover {
+  background-color: #f2ffe6;
+}
+.checkTemps {
+  width: auto !important;
+}
+.optionsList input[type="checkbox"] {
+  margin-right: 8px;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}

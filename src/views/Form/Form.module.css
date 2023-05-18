@@ -1,0 +1,41 @@
+.formContainer {
+  margin-bottom: 200px;
+}
+.form {
+  justify-content: center;
+  width: 400px;
+  max-width: 100%;
+  border: 3px solid black;
+  padding: 40px 30px;
+  margin: 0 auto;
+}
+.formContainer h1 {
+  width: 100%;
+  text-align: center;
+}
+.form label {
+  display: block;
+}
+.form input {
+  width: 382px;
+  max-width: 98%;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid black;
+}
+.danger {
+  color: #ff0084;
+  font-size: 14px;
+  margin-top: 2px;
+}
+.warning {
+  border: 2px solid #ff0084 !important;
+}
+.multiselect {
+  border-color: #ff0084;
+}
+.sendDoggie {
+  margin: 10px 0;
+  width: 60%;
+  height: 40px;
+}

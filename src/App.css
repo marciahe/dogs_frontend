@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+h2,
+h3,
+h4,
+p,
+.App,
+body,
+div {
+  font-family: "Comme", sans-serif;
+}
+
+h1 {
+  font-family: "Press Start 2P", sans-serif;
+}
+
+button {
+  font-family: "Comme", sans-serif;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin: 20px;
+  border: none;
+  box-shadow: 4px 4px 0px 0px rgb(139, 231, 74);
+  -webkit-box-shadow: 4px 4px 0px 0px rgb(139, 231, 74);
+  -moz-box-shadow: 4px 4px 0px 0px rgba(139, 231, 74, 1);
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 6px 6px 0px 0px rgb(139, 231, 74);
+  -webkit-box-shadow: 6px 6px 0px 0px rgba(139, 231, 74, 1);
+  -moz-box-shadow: 6px 6px 0px 0px rgba(139, 231, 74, 1);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}

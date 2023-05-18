@@ -1,0 +1,39 @@
+.searchBox {
+  font-size: 14px;
+  font-family: "Press Start 2P", sans-serif;
+  border: 3px solid black;
+  padding: 12px 12px;
+  width: 320px;
+}
+.searchBox:focus-visible {
+  outline: 2px solid #8be74a;
+  border-radius: 0;
+}
+.searchIcon {
+  position: relative;
+  right: 30px;
+  top: -3px;
+}
+.results {
+  position: absolute;
+  background: white;
+  width: 350px;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin-top: 1px;
+  max-height: 450px;
+  overflow-y: auto;
+  -webkit-box-shadow: inset 0px 0px 0px 2px #000000;
+  -moz-box-shadow: inset 0px 0px 0px 2px #000000;
+  box-shadow: inset 0px 0px 0px 2px #000000;
+}
+.results li {
+  padding: 12px 12px 12px 20px;
+}
+.results li:hover {
+  background-color: #8be74a;
+  -webkit-box-shadow: inset 0px 0px 0px 2px #000000;
+  -moz-box-shadow: inset 0px 0px 0px 2px #000000;
+  box-shadow: inset 0px 0px 0px 2px #000000;
+}
