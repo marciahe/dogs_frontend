@@ -33,7 +33,7 @@ const Form = () => {
   useEffect(() => {
     async function fetchTemperaments() {
       try {
-        const response = await axios.get("http://localhost:3001/temperaments");
+        const response = await axios.get("/temperaments");
         setTemperamentsOptions(
           response.data.map((temperament, index) => ({
             name: temperament.name,
@@ -86,7 +86,7 @@ const Form = () => {
       return;
     }
     try {
-      const response = await axios.post("http://localhost:3001/dogs", form);
+      const response = await axios.post("/dogs", form);
       console.log("Dog created successfully:", response.data);
       const newDogId = response.data.id;
       history.push(`/detail/${newDogId}`);

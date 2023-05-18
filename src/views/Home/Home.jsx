@@ -8,6 +8,7 @@ import {
   orderBy,
   setCurrentPage,
 } from "../../redux/actions";
+import axios from "axios";
 import style from "./Home.module.css";
 
 const Home = () => {
@@ -20,8 +21,8 @@ const Home = () => {
 
   useEffect(() => {
     async function fetchTemperaments() {
-      const response = await fetch("http://localhost:3001/temperaments");
-      const data = await response.json();
+      const response = await axios.get("/temperaments");
+      const data = response.data;
       setTemperamentsOptions(
         data.map((temperament, index) => ({
           name: temperament.name,

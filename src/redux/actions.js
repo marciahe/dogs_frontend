@@ -7,7 +7,7 @@ export const ORDER = "ORDER";
 export const CURRENT_PAGE = "CURRENT_PAGE";
 
 export const getDogs = () => {
-  const endpoint = "http://localhost:3001/dogs";
+  const endpoint = "/dogs";
 
   return async function (dispatch) {
     try {
