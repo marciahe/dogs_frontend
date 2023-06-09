@@ -113,7 +113,7 @@ const Form = () => {
         </div>
 
         <div>
-          <label>Minimum height</label>
+          <label>Minimum height (cm)</label>
           <input
             type="number"
             value={form.heightMin}
@@ -125,7 +125,7 @@ const Form = () => {
           <p className={style.danger}>{errors.heightMin}</p>
         </div>
         <div>
-          <label>Maximum height</label>
+          <label>Maximum height (cm)</label>
           <input
             type="number"
             value={form.heightMax}
@@ -138,7 +138,7 @@ const Form = () => {
         </div>
 
         <div>
-          <label>Minimum weight</label>
+          <label>Minimum weight (kg)</label>
           <input
             type="number"
             value={form.weightMin}
@@ -150,7 +150,7 @@ const Form = () => {
           <p className={style.danger}>{errors.weightMin}</p>
         </div>
         <div>
-          <label>Maximum weight</label>
+          <label>Maximum weight (kg)</label>
           <input
             type="number"
             value={form.weightMax}
@@ -163,7 +163,7 @@ const Form = () => {
         </div>
 
         <div>
-          <label>Minimum life span</label>
+          <label>Minimum life span (years)</label>
           <input
             type="number"
             value={form.life_span_min}
@@ -175,7 +175,7 @@ const Form = () => {
           <p className={style.danger}>{errors.life_span_min}</p>
         </div>
         <div>
-          <label>Maximum life span</label>
+          <label>Maximum life span (years)</label>
           <input
             type="number"
             value={form.life_span_max}
