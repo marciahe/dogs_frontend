@@ -2,7 +2,7 @@ import CardsContainer from "../../components/CardsContainer/CardsContainer";
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import {
-  // getDogs,
+  getDogs,
   filterByTemps,
   filterByCreated,
   orderBy,
@@ -13,9 +13,9 @@ import style from "./Home.module.css";
 
 const Home = () => {
   const dispatch = useDispatch();
-  // useEffect(() => {
-  //   dispatch(getDogs());
-  // }, [dispatch]);
+  useEffect(() => {
+    dispatch(getDogs());
+  }, [dispatch]);
 
   const [temperamentsOptions, setTemperamentsOptions] = useState([]);
 
